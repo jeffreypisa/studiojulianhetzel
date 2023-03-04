@@ -1,0 +1,17 @@
+<footer class="footer bg-dark">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg mb-4 mb-lg-0">
+				{{ options.footer_kolom_1 }}
+			</div>
+			<div class="col-lg">
+				{{ options.footer_kolom_2 }}
+				{% include "footermenu.twig" with {'items': footermenu.get_items} %}
+			</div>
+			<div class="col-lg mb-4 mb-lg-0 order-first order-lg-last">
+				{{ options.footer_kolom_3 }}
+				{% include 'partial/socialmedia.twig' %}
+			</div>
+		</div>
+	</div>
+</footer>

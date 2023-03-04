@@ -1,0 +1,57 @@
+.tease, .tease[href] {
+	height: auto;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	h3 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		max-width: 100%;
+		letter-spacing: 1px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.afbeelding-wrapper {
+		overflow: hidden;
+		position: relative;
+		.afbeelding {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			transform: scale(1);
+			transition: .2s $ease;
+		}
+	}
+	&[href]:hover {
+		.afbeelding-wrapper {
+			.afbeelding {
+				transform: scale(1.06);
+				transition: .2s $ease;
+				opacity: 0.5;
+				filter: brightness(150%)
+			}
+		}
+	}
+	&.tease-agenda {
+		padding-top: .78rem;
+		padding-bottom: .78rem;
+		border-bottom: 3px solid #000;
+		line-height: 28px;
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+	&.tease-agenda-row {
+		padding-bottom: .78rem;
+		border-bottom: 3px solid #000;
+		line-height: 28px;
+		margin-bottom: -3px;
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+}

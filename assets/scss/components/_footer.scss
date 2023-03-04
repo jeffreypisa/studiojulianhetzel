@@ -1,0 +1,41 @@
+footer {
+	padding: 20px;
+	position: relative;
+	.btn {
+		background: #fff;
+		color: black;
+		border-radius: 0;
+		transform: translateY(-2px);
+	}
+	p {
+		margin-bottom: .5rem;
+	}
+	ul.nav {
+		padding: 0;
+		margin-left: -6px;
+		li {
+			display: block;
+			width: 100%;
+			height: 28px;
+			a {
+				margin: 0;
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+@include media-breakpoint-up(md) {
+	footer {
+		padding: 30px;
+		ul.nav {
+			margin: 0;
+		}
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	footer {
+		padding: 50px;
+	}
+}

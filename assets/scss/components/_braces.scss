@@ -1,0 +1,46 @@
+body {
+	position: relative;
+}
+	
+.braces[href] {
+	display: block;
+	text-transform: uppercase;
+	width:100vh;    
+	height:30px;
+	line-height: 30px;
+	font-weight: 900;
+	position:fixed;
+	background:#fff;
+	color: #000;
+	z-index: 9999;
+	font-size: 13px;
+	transition: background .3s $ease;
+	div {
+		position: fixed;
+		white-space: nowrap;
+		letter-spacing: 1.5px;
+		transition: none;
+	}
+	&.braces-links {
+		transform-origin: left top;
+		transform:rotate(-90deg) translateX(-100%);
+		left: 0;
+	}
+	
+	&.braces-rechts {
+		transform-origin: right top;
+		transform:rotate(90deg) translateX(100%);
+		right: 0;
+		div {
+			left: calc(100vh - 300%);
+		}
+	}
+}
+
+@include media-breakpoint-up(md) {
+	.braces[href] {
+		height:50px;
+		line-height: 50px;
+		font-size: 18px;
+	}
+}

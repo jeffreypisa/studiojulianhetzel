@@ -1,0 +1,22 @@
+{% extends "base.twig" %}
+
+{% block content %}
+	<article class="post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
+		<div class="container-fluid">
+			<h2 class="h1"> {% if title %}{{ title }}{% else %}{{ post.title }}{% endif %}</h2>
+			<div id="theposts" class="words">	
+				{% set oldyear = '' %}
+				{% set linebreak = 'yes' %}
+				{% for item in posts %}		
+					{% if item.datum|date('Y') != oldyear %}
+						{% set linebreak = 'no' %}
+						<div class="line"></div>
+					{% endif %}
+					{% include ['tease-words-row.twig'] %}
+					{% set oldyear = item.datum|date('Y') %}
+					{% set linebreak = 'yes' %}
+				{% endfor %}
+			</div>
+		</div>
+	</article>
+{% endblock %}

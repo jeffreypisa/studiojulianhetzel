@@ -1,0 +1,18 @@
+{% extends "base.twig" %}
+
+{% block content %}
+	<article class="post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
+		<div class="container-fluid">
+			<h2 class="h1"> {{ post.title }} </h2>
+			<div class="line mb-20"></div>
+			<div class="row mb-20">
+				<div class="col-md-6">	
+					{{ post.get_field('kolom_1') }}
+				</div>
+				<div class="col-md-6">	
+					{{ post.get_field('kolom_2') }}
+				</div>
+			</div>
+		</div>
+	</article>
+{% endblock %}

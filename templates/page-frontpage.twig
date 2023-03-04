@@ -1,0 +1,48 @@
+{% extends "base.twig" %}
+
+{% block content %}
+	<article class="post-type-{{ post.post_type }}" id="post-{{ post.ID }}">
+		{% if post.banner_layout != 'video' %}
+			{% include 'partial/bannerslider.twig' %}
+		{% else %}
+			{% include 'partial/bannervideo.twig' %}
+		{% endif %}
+		<div class="container-fluid">
+			<div class="row mb-3">
+				<div class="col-md-6 mb-3 mb-md-0">	
+					<div data-mh class="homecontent">
+						<div class="line"></div>
+						{{ post.get_field('kolom_1') }}
+					</div>
+					{% if post.kolom_1_link %}
+						<a href="{{ post.kolom_1_link.url }}" target="{{ post.kolom_1_link.target }}" class="blocklink"><i class="fas fa-chevron-right"></i></a>
+					{% endif %}
+				</div>
+				<div class="col-md-6">	
+					<div data-mh>
+						<div class="agenda-items">
+						{% if agenda %}
+							<div class="line mb-0"></div>
+							{% for item in agenda|slice(0,4) %}
+								{% include 'tease-agenda.twig' %}
+							{% endfor %}
+						{% else %}
+							<div class="line"></div>
+							{{ options.geen_agenda_items_voor_project }}
+						{% endif %}
+						</div>
+					</div>
+					<a href="{{ site.url }}/agenda" class="blocklink"><i class="fas fa-chevron-right"></i></a>
+				</div>
+			</div>
+			<div class="line mb-20"></div>
+			<div id="theposts" class="row g-4">
+			  {% for item in news %}
+				  <div class="col-md-6">
+					  {% include ['tease.twig'] %}
+				  </div>
+			  {% endfor %}
+		   </div>
+		</div>
+	</article>
+{% endblock %}

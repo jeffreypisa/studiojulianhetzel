@@ -1,0 +1,19 @@
+<div class="tease tease-agenda-row">
+	<div class="line"></div>
+	<div class="row">
+		<div class="col-md-2">
+			{{ item.datum|date('j-m-Y') }} 
+		</div>
+		<div class="col-md-4">
+			{{ Post(item.project).title }}
+		</div>
+		<div class="col-md">
+			{{ item.locatie }} 
+		</div>
+		<div class="col-md-auto ticketcol" style="width: 92px">
+			{% if item.ticketlink %}
+				<a href="{{ item.ticketlink }}" target="_blank" class="blocklink tickets">Tickets</a>
+			{% endif %}
+		</div>
+	</div>
+</div>

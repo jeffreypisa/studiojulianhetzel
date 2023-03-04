@@ -1,0 +1,11 @@
+<div class="tease tease-agenda">
+	<div class="row">
+		<div class="col-md">
+			{{ item.datum|date('j-m-Y') }} <br>
+			{{ item.locatie }} 
+		</div>
+		<div class="col-md-auto">
+			<a href="{{ item.ticketlink }}" target="_blank" class="blocklink">Tickets</a>
+		</div>
+	</div>
+</div>

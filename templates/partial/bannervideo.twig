@@ -1,0 +1,17 @@
+<section id="banner" class="pb-banner text-white {{ post.banner_layout }} mb-20">
+
+	<div class="bannerslider">
+		<div class="item">
+		{% if post.banner_layout == 'video' %}
+			{% set video_landscape = fn('extractOembedUrl', post.get_field('vimeo')) %}
+				<div class="vimeo-wrapper landscape d-none d-sm-block">
+					<iframe id="video1" src="{{ video_landscape }}?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen "></iframe>
+				</div>
+			{% set video_portrait = fn('extractOembedUrl', post.get_field('vimeo_mobiel')) %}
+				<div class="vimeo-wrapper portrait d-sm-none">
+					<iframe id="video1" src="{{ video_portrait }}?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen "></iframe>
+				</div>
+		{% endif %}
+		</div>
+	</div>
+</section> 

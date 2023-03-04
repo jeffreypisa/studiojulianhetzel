@@ -1,0 +1,27 @@
+<div class="tease tease-words">
+	<div class="row">
+		<div class="col-md-4">
+			{% if linebreak == 'no' %}{{ item.datum|date('Y') }} {% endif %}
+		</div>
+		<div class="col-md-8">
+			<div class="word pb-2">
+				{% if linebreak == 'yes' %}
+					<div class="line"></div>
+				{% endif %}
+				<div class="row">
+					<div class="col-md">
+						"{% if item.quote %}{{ item.quote }}{% else %}{{ item.title }}{% endif %}"<br>
+						– {{ item.source }}
+					</div>
+					<div class="col-auto">
+						{% if item.link_type == 'internal' %}
+							<div class="blocklink">{% if lang == 'nl_NL' %}Lees meer{% else %}Read more{% endif %}</div>
+						{% else %}
+							<a href="{{ item.the_link.url }}" target="_blank" class="blocklink">{{ item.the_link.title }}</a>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

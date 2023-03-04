@@ -1,0 +1,18 @@
+a[href] {
+	text-decoration: none;
+}
+
+.thema-title {
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	opacity: .5;
+}
+
+blockquote {
+	margin-bottom: 1.73rem;
+}
+
+@include media-breakpoint-up(md) {
+
+}

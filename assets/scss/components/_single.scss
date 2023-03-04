@@ -1,0 +1,22 @@
+@include media-breakpoint-down(md) {
+	.single-projects {
+		.upcoming {
+			&.nobottomline {
+				margin-bottom: -3px;
+				overflow: hidden;
+			}
+			.tease {
+				display: none;
+			}
+			.tease:nth-child(1),
+			.tease:nth-child(2),
+			.tease:nth-child(3) {
+				display: block;
+			}
+		}
+	}
+	.homecontent {
+		padding-bottom: 1px;
+	}
+}
+

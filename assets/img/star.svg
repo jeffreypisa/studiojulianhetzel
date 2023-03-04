@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="23px" viewBox="0 0 25 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Star</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-537.000000, -608.000000)" fill="#FFFFFF">
+            <g id="Group-2" transform="translate(537.000000, 608.000000)">
+                <polygon id="Star" points="12.5 18.75 5.15268435 22.6127124 6.55589677 14.4313562 0.611793546 8.63728757 8.82634217 7.44364379 12.5 0 16.1736578 7.44364379 24.3882065 8.63728757 18.4441032 14.4313562 19.8473157 22.6127124"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
