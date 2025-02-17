@@ -52,6 +52,7 @@
 		padding: 6px 8px 4px;
 		text-align: center; /* Center text */
 		mix-blend-mode: screen; 
+		display: inline-block;
 	}
 	.h3 {
 		position: relative;
@@ -86,6 +87,7 @@
 				transition: .2s $ease;
 			}
 			.itemtitle {
+				white-space: normal;
 			}
 			&[href]:hover {
 				.bg-cover {

@@ -4,8 +4,10 @@
 			{{ item.datum|date('j-m-Y') }} <br>
 			{{ item.locatie }} 
 		</div>
-		<div class="col-md-auto">
-			<a href="{{ item.ticketlink }}" target="_blank" class="blocklink">Tickets</a>
+		<div class="col-md-auto" style="width: 92px">
+			{% if item.ticketlink %}
+				<a href="{{ item.ticketlink }}" target="_blank" class="blocklink">Tickets</a>
+			{% endif %}
 		</div>
 	</div>
 </div>

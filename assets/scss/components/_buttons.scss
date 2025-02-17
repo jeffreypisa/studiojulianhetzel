@@ -1,22 +1,32 @@
 .btn, a[href], .blocklink {
-	display: inline-block;
 	position: relative;
 	overflow: hidden;
 	min-height: 26px;
 	min-width: 26px;
-	text-align: center;
+	// text-align: center;
 	line-height: 26px;
 	font-weight: bold;
 	color: #fff;
 	padding: 0 6px;
 	background: #000;
 	overflow: hidden;
-	white-space: nowrap;
+	// white-space: nowrap;
 	text-overflow: ellipsis;
 	i {
 		font-size: 15px;
 		line-height: 25px;
 	}
+}
+
+a[href]:not(.btn):not(.blocklink) {
+	text-align: left;
+	display: inline;
+}
+
+.btn, .blocklink { 
+	text-align: center;
+	white-space: nowrap;
+	display: inline-block;
 }
 
 a[href]:not(.btn):not(.tease):not(.nav-link) {

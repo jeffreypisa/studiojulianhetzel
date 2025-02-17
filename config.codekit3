@@ -7,16 +7,8 @@
       "uuidString" : "DAB3A1D1-B069-47CF-B5B7-C2F91B29D8B3"
     }
   ],
-  "creatorBuild" : "34448",
+  "creatorBuild" : "34680",
   "files" : {
-    "\/.nova\/Publishing\/demo1.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/.nova\/Publishing\/demo1-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/.nova\/Publishing\/Emonks.json" : {
       "ft" : 524288,
       "oA" : 1,
@@ -25,26 +17,10 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/.nova\/Publishing\/Kievitshof demo.json" : {
+    "\/.nova\/Publishing\/Studio Julian Hetzel.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/.nova\/Publishing\/Kievitshof demo-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/.nova\/Publishing\/StropStrikkers.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/.nova\/Publishing\/StropStrikkers-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/.nova\/Publishing\/YourSepa demo.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/.nova\/Publishing\/YourSepa demo-min.json",
+      "oAP" : "\/.nova\/Publishing\/Studio Julian Hetzel-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -137,6 +113,14 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/acf-json\/group_64218cdb33fc2.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/acf-json\/group_64218cdb33fc2-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/archive-words.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -197,116 +181,12 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/assets\/favicon\/android-chrome-192x192.png" : {
-      "ft" : 32768,
-      "iS" : 6108,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/android-chrome-192x192.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/favicon\/android-chrome-512x512.png" : {
-      "ft" : 32768,
-      "iS" : 19735,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/android-chrome-512x512.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/favicon\/apple-touch-icon.png" : {
-      "ft" : 32768,
-      "iS" : 3299,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/apple-touch-icon.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/favicon\/browserconfig.xml" : {
+    "\/assets\/favicon\/fav.ico" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/favicon\/browserconfig.xml",
-      "oF" : 0
-    },
-    "\/assets\/favicon\/favicon-16x16.png" : {
-      "ft" : 32768,
-      "iS" : 882,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/favicon-16x16.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/favicon\/favicon-32x32.png" : {
-      "ft" : 32768,
-      "iS" : 1322,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/favicon-32x32.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/favicon\/favicon.ico" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/favicon.ico",
-      "oF" : 0
-    },
-    "\/assets\/favicon\/mstile-150x150.png" : {
-      "ft" : 32768,
-      "iS" : 3384,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/mstile-150x150.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/favicon\/safari-pinned-tab.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/favicon\/safari-pinned-tab.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/favicon\/site.webmanifest" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/favicon\/site.webmanifest",
+      "oAP" : "\/assets\/favicon\/fav.ico",
       "oF" : 0
     },
     "\/assets\/fonts\/fa-brands-400.eot" : {
@@ -439,7 +319,6 @@
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -447,8 +326,7 @@
       "oAP" : "\/assets\/fonts\/fontawesome.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/fonts\/light.css" : {
       "aP" : 1,
@@ -474,7 +352,6 @@
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -482,14 +359,12 @@
       "oAP" : "\/assets\/fonts\/light.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/fonts\/solid.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -497,8 +372,7 @@
       "oAP" : "\/assets\/fonts\/solid.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/img\/arrow.svg" : {
       "ft" : 2097152,
@@ -704,7 +578,6 @@
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -712,14 +585,12 @@
       "oAP" : "\/assets\/scss\/components\/_archief.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_banner.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -727,14 +598,12 @@
       "oAP" : "\/assets\/scss\/components\/_banner.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_braces.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -742,14 +611,12 @@
       "oAP" : "\/assets\/scss\/components\/_braces.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_btn-menu.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -757,14 +624,12 @@
       "oAP" : "\/assets\/scss\/components\/_btn-menu.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_buttons.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -772,14 +637,12 @@
       "oAP" : "\/assets\/scss\/components\/_buttons.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_categories.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -787,14 +650,12 @@
       "oAP" : "\/assets\/scss\/components\/_categories.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_colors.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -802,14 +663,12 @@
       "oAP" : "\/assets\/scss\/components\/_colors.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_content.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -817,14 +676,12 @@
       "oAP" : "\/assets\/scss\/components\/_content.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_dropdown.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -832,14 +689,12 @@
       "oAP" : "\/assets\/scss\/components\/_dropdown.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_embed.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -847,14 +702,12 @@
       "oAP" : "\/assets\/scss\/components\/_embed.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_footer.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -862,14 +715,12 @@
       "oAP" : "\/assets\/scss\/components\/_footer.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_form.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -877,14 +728,12 @@
       "oAP" : "\/assets\/scss\/components\/_form.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_header.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -892,14 +741,12 @@
       "oAP" : "\/assets\/scss\/components\/_header.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_helpers.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -907,14 +754,12 @@
       "oAP" : "\/assets\/scss\/components\/_helpers.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_image.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -922,14 +767,12 @@
       "oAP" : "\/assets\/scss\/components\/_image.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_menu.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -937,14 +780,12 @@
       "oAP" : "\/assets\/scss\/components\/_menu.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_mobilemenu.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -952,14 +793,12 @@
       "oAP" : "\/assets\/scss\/components\/_mobilemenu.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_nav.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -967,14 +806,12 @@
       "oAP" : "\/assets\/scss\/components\/_nav.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_section.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -982,14 +819,12 @@
       "oAP" : "\/assets\/scss\/components\/_section.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_single.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -997,14 +832,12 @@
       "oAP" : "\/assets\/scss\/components\/_single.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_socialmedia.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1012,14 +845,12 @@
       "oAP" : "\/assets\/scss\/components\/_socialmedia.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_tease.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1027,14 +858,12 @@
       "oAP" : "\/assets\/scss\/components\/_tease.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/components\/_type.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1042,14 +871,12 @@
       "oAP" : "\/assets\/scss\/components\/_type.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/main.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1057,14 +884,12 @@
       "oAP" : "\/assets\/css\/main.css",
       "oF" : 2,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/plugins\/_fontawesome.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1072,14 +897,12 @@
       "oAP" : "\/assets\/scss\/plugins\/_fontawesome.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/plugins\/_lity.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1087,14 +910,12 @@
       "oAP" : "\/assets\/scss\/plugins\/_lity.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/plugins\/_simpleparallax.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1102,14 +923,12 @@
       "oAP" : "\/assets\/scss\/plugins\/_simpleparallax.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/plugins\/_slick.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1117,14 +936,12 @@
       "oAP" : "\/assets\/scss\/plugins\/_slick.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/settings\/_body.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1132,14 +949,12 @@
       "oAP" : "\/assets\/scss\/settings\/_body.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/settings\/_buttons.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1147,14 +962,12 @@
       "oAP" : "\/assets\/scss\/settings\/_buttons.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/settings\/_colors.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1162,14 +975,12 @@
       "oAP" : "\/assets\/scss\/settings\/_colors.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/settings\/_components.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1177,14 +988,12 @@
       "oAP" : "\/assets\/scss\/settings\/_components.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/settings\/_effects.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1192,14 +1001,12 @@
       "oAP" : "\/assets\/scss\/settings\/_effects.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/settings\/_form.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1207,14 +1014,12 @@
       "oAP" : "\/assets\/scss\/settings\/_form.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/settings\/_grid.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1222,14 +1027,12 @@
       "oAP" : "\/assets\/scss\/settings\/_grid.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/settings\/_images.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1237,14 +1040,12 @@
       "oAP" : "\/assets\/scss\/settings\/_images.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/settings\/_links.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1252,14 +1053,12 @@
       "oAP" : "\/assets\/scss\/settings\/_links.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/settings\/_nav.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1267,14 +1066,12 @@
       "oAP" : "\/assets\/scss\/settings\/_nav.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/settings\/_options.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1282,14 +1079,12 @@
       "oAP" : "\/assets\/scss\/settings\/_options.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/assets\/scss\/settings\/_type.scss" : {
       "aP" : 1,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
@@ -1297,8 +1092,7 @@
       "oAP" : "\/assets\/scss\/settings\/_type.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
-      "sct" : 0
+      "pg" : 0
     },
     "\/author.php" : {
       "cB" : 0,
@@ -4701,9 +4495,9 @@
   },
   "projectAttributes" : {
     "creationDate" : 648499232.16711402,
-    "displayValue" : "_studiojulianhetzel",
+    "displayValue" : "studiojulianhetzel",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "\/assets\/favicon\/apple-touch-icon.png",
+    "iconImageName" : "logo-angular",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
@@ -5204,10 +4998,6 @@
         "active" : 0,
         "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
       },
-      "line-comment-position" : {
-        "active" : 0,
-        "optionString" : "{'position': 'above'}"
-      },
       "linebreak-style" : {
         "active" : 0,
         "optionString" : "'unix'"
@@ -5259,10 +5049,6 @@
       "max-statements-per-line" : {
         "active" : 0,
         "optionString" : "{'max': 1}"
-      },
-      "multiline-comment-style" : {
-        "active" : 0,
-        "optionString" : "'starred-block'"
       },
       "multiline-ternary" : {
         "active" : 0,
@@ -5405,7 +5191,8 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'enforceForInnerExpressions': false}"
       },
       "no-extra-label" : {
         "active" : 0
@@ -5490,7 +5277,8 @@
         "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowEscape': false}"
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -5530,9 +5318,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -5544,6 +5329,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1
@@ -5598,9 +5386,6 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
-      },
-      "no-return-await" : {
-        "active" : 0
       },
       "no-script-url" : {
         "active" : 0
@@ -5861,7 +5646,8 @@
         "active" : 0
       },
       "require-unicode-regexp" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'requireFlag': 'u'}"
       },
       "require-yield" : {
         "active" : 1
@@ -6152,9 +5938,7 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 0,
-      "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
       "outputStyle" : 3,
       "purgeCSSStyle" : 0,
@@ -6218,7 +6002,7 @@
       "moduleType" : 2,
       "removeComments" : 0,
       "sourceMapStyle" : 0,
-      "targetECMAVersion" : 0
+      "targetECMAVersion" : 2018
     },
     "languageDefaultsUserDefined" : [
 
@@ -6270,10 +6054,15 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
+    "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
+    "tsAllowArbitraryExtensions" : 0,
+    "tsAllowImportingTSExtensions" : 0,
     "tsAllowSyntheticDefaultImports" : 0,
+    "tsAllowUMDGlobalAccess" : 0,
     "tsAllowUnreachableCode" : 0,
     "tsAllowUnusedLabels" : 0,
     "tsAlwaysStrict" : 0,
@@ -6282,36 +6071,37 @@
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
     "tsExactOptionalPropertyTypes" : 0,
+    "tsExperimentalDecorators" : 0,
     "tsForceConsistentCasingInFileNames" : 0,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
-    "tsKeyofStringsOnly" : 0,
+    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
     "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
-    "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
     "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
-    "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
     "tsNoUnusedLocals" : 0,
     "tsNoUnusedParameters" : 0,
     "tsPreserveConstEnums" : 0,
     "tsPreserveSymlinks" : 0,
     "tsResolveJsonModule" : 0,
+    "tsSkipDefaultLibCheck" : 0,
     "tsSkipLibCheck" : 0,
+    "tsStrictBindCallApply" : 0,
     "tsStrictFunctionTypes" : 0,
     "tsStrictNullChecks" : 0,
     "tsStrictPropertyInitialization" : 0,
     "tsStripInternal" : 0,
-    "tsSuppressExcessPropertyErrors" : 0,
-    "tsSuppressImplicitAnyIndexErrors" : 0,
+    "tsUseDefineForClassFields" : 0,
     "tsUseUnknownInCatchVariables" : 0,
+    "tsVerbatimModuleSyntax" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {
