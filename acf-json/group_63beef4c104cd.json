@@ -3,6 +3,60 @@
     "title": "Project",
     "fields": [
         {
+            "key": "field_68500ea24e46c",
+            "label": "HOME SLIDER | Verberg titel",
+            "name": "home_slider_titel_hide",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_68500e0b4e46b",
+            "label": "HOME SLIDER | Titel kleur",
+            "name": "home_slider_titel_kleur",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_68500ea24e46c",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "white": "wit",
+                "black": "zwart"
+            },
+            "default_value": "white",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
             "key": "field_63ecbec76e1fc",
             "label": "Banner layout",
             "name": "banner_layout",
@@ -288,5 +342,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1676460340
+    "modified": 1750077406
 }

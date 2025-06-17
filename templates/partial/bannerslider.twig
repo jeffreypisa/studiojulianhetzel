@@ -13,14 +13,16 @@
 						</div>
 					{% endif %}
 					<div class="caption">{{ Image(item.thumbnail).caption }}</div>
-					<div class="itemtitle ">
-						<h2 class="h1 mb-0">
-							{{ item.title }}
-						</h2>
-						{% if item.subtitle %}
-							<div class="h3 mt-3 text-center">
-								{{ item.subtitle }} 
-							</div>
+					<div class="itemtitle text-{{ item.home_slider_titel_kleur }}">
+						{% if not item.home_slider_titel_hide %}
+							<h2 class="h1 mb-0">
+								{{ item.title }}
+							</h2>
+							{% if item.subtitle %}
+								<div class="h3 mt-3 text-center">
+									{{ item.subtitle }} 
+								</div>
+							{% endif %}
 						{% endif %}
 					</div>
 				</div>

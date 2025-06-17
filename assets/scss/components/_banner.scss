@@ -54,6 +54,13 @@
 		mix-blend-mode: screen; 
 		display: inline-block;
 	}
+	.itemtitle.text-black {
+		h2 {
+			background-color: #000;
+			color: #fff;
+			mix-blend-mode: color-burn; 
+		}
+	}
 	.h3 {
 		position: relative;
 		z-index: 1;

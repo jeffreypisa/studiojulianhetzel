@@ -66,11 +66,29 @@
 						{% if upcoming|length > 0 %}
 							<div class="line mb-0"></div>
 							<div id="theposts" class="upcoming {% if upcoming|length > 3 %}nobottomline{% endif %}">
+								{% set counter = 0 %}
 								{% for item in upcoming %}
 									{% if Post(item.project).title == post.title %}
-										{% include ['tease-agenda-project.twig'] %}
+										{% set counter = counter + 1 %}
+										{% if counter <= 3 %}
+											{% include ['tease-agenda-project.twig'] %}
+										{% elseif counter == 4 %}
+											<div class="collapse" id="moreUpcoming">
+												{% include ['tease-agenda-project.twig'] %}
+										{% else %}
+												{% include ['tease-agenda-project.twig'] %}
+										{% endif %}
 									{% endif %}
 								{% endfor %}
+								{% if counter > 3 %}
+										
+									</div>
+									<button id="toggleMoreBtn" class="blocklink mt-3 mb-3" style="border: 0" type="button" data-bs-toggle="collapse" data-bs-target="#moreUpcoming" aria-expanded="false" aria-controls="moreUpcoming">
+										<span class="label-more">More</span>
+										<span class="label-less d-none">Less</span>
+										<i id="toggleChevron" class="fas fa-chevron-down transition"></i>
+									</button>
+								{% endif %}
 							</div>
 						{% else %}
 							<div class="line"></div>
@@ -110,6 +128,28 @@
 					</div>
 				{% endif %}
 			</div>
+			<script>
+			document.addEventListener('DOMContentLoaded', function () {
+				const collapseEl = document.getElementById('moreUpcoming');
+				const toggleBtn = document.getElementById('toggleMoreBtn');
+				const moreLabel = toggleBtn.querySelector('.label-more');
+				const lessLabel = toggleBtn.querySelector('.label-less');
+				const chevron = document.getElementById('toggleChevron');
+				
+				collapseEl.addEventListener('show.bs.collapse', function () {
+					moreLabel.classList.add('d-none');
+					lessLabel.classList.remove('d-none');
+					chevron.classList.add('rotate-up');
+				});
+				
+				collapseEl.addEventListener('hide.bs.collapse', function () {
+					moreLabel.classList.remove('d-none');
+					lessLabel.classList.add('d-none');
+					chevron.classList.remove('rotate-up');
+				});
+				
+			});
+			</script>
 		</section>
 	</article>
 </div><!-- /content-wrapper -->
