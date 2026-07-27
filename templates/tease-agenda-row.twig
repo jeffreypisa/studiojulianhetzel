@@ -5,7 +5,9 @@
 			{{ item.datum|date('j-m-Y') }} 
 		</div>
 		<div class="col-md-4">
-			{{ Post(item.project).title }}
+			{% if item.project %}
+				{{ Post(item.project).title }}
+			{% endif %}
 		</div>
 		<div class="col-md">
 			{{ item.locatie }} 

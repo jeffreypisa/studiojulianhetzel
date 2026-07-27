@@ -68,7 +68,7 @@
 							<div id="theposts" class="upcoming {% if upcoming|length > 3 %}nobottomline{% endif %}">
 								{% set counter = 0 %}
 								{% for item in upcoming %}
-									{% if Post(item.project).title == post.title %}
+									{% if item.project and Post(item.project).title == post.title %}
 										{% set counter = counter + 1 %}
 										{% if counter <= 3 %}
 											{% include ['tease-agenda-project.twig'] %}

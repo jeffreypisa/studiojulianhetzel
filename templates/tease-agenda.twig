@@ -7,5 +7,8 @@
 			<a href="{{ item.ticketlink }}" target="_blank" class="blocklink">Tickets</a>
 		</div>
 	</div>
-	{{ Post(item.project).title }} | {{ item.locatie }} 
+	{% if item.project %}
+		{{ Post(item.project).title }}{% if item.locatie %} | {% endif %}
+	{% endif %}
+	{{ item.locatie }}
 </div>
